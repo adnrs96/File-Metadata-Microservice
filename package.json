@@ -1,0 +1,23 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "This is an excercise done as a part of fcc curiculum ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnrs96/File-Metadata-Microservice.git"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "multer": "^1.1.0"
+  },
+  "author": "Aditya Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnrs96/File-Metadata-Microservice/issues"
+  },
+  "homepage": "https://github.com/adnrs96/File-Metadata-Microservice#readme"
+}
