@@ -21,11 +21,13 @@
 	<br/>
 	<code>http://urlshortener-ms.herokuapp.com/new/http://foo.com:80</code>
 	<h3>Try it out below:</h3>
-	<form id="form-file">
-		<input type="file">
+	<form id="form-file" enctype='multipart/form-data' method="post" action="/">
+		<input type="file" name="file">
 		<br/>
 		<input type="submit" class="btn btn-primary">	
 	</form>
 </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='index.js' ></script>
 </body>
 </html>
