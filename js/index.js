@@ -18,7 +18,7 @@ $(document).ready(function(){
 			alert("File Size is: "+data.filesize);
 		})
 		.fail(function(jqXHR, textStatus, errorThrown) {
-          alert(errorThrown);
+          alert(errorThrown+"ggj");
         });
 		e.preventDefault();
 	});
