@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var link='http://localhost:5000/filesize';
+	var link='https://file-md-ms.herokuapp.com/filesize';
 	$("#form-file").submit(function(e){
 		$.ajax({
 			url: link,
@@ -18,7 +18,7 @@ $(document).ready(function(){
 			alert("File Size is: "+data.filesize);
 		})
 		.fail(function(jqXHR, textStatus, errorThrown) {
-          alert(errorThrown+"ggj");
+          alert(errorThrown);
         });
 		e.preventDefault();
 	});
